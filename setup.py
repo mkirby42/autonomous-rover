@@ -16,6 +16,8 @@ setup(
     description="Autonomous outdoor rover",
     license="MIT",
     entry_points={
-        "console_scripts": [],
+        "console_scripts": [
+            'yolo_node = autonomous_rover.yolo_node:main',
+        ],
     },
 )
